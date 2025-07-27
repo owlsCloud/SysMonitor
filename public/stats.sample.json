@@ -1,13 +1,29 @@
 {
-  "timestamp": "2025-07-26T20:21:34Z",
   "cpu_percent": 12.3,
-  "memory": {
-    "used": 4.5,
-    "total": 8.0
+  "cpu_per_core": [10.1, 15.6, 8.9, 3.5],
+  "cpu_freq": {
+    "current": 2494.0,
+    "min": 800.0,
+    "max": 2500.0
   },
-  "disk": {
-    "used": 71.2,
-    "mount": "/"
+  "cpu_count": 4,
+  "cpu_threads": 8,
+  "network": {
+    "bytes_sent": 13245678,
+    "bytes_recv": 27234567
   },
-  "uptime": 123456.7
+  "host": {
+    "os": "Linux",
+    "os_version": "5.15.0-78-generic",
+    "machine": "x86_64",
+    "hostname": "my-machine"
+  },
+  "top_processes": [
+    {
+      "pid": 1234,
+      "name": "python3",
+      "cpu_percent": 21.4,
+      "memory_percent": 3.2
+    }
+  ]
 }
