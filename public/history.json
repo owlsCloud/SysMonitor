@@ -1,21 +1,5 @@
 [
   {
-    "timestamp": "July 27, 2025 04:05:01 UTC",
-    "cpu_percent": 1.1
-  },
-  {
-    "timestamp": "July 27, 2025 04:10:01 UTC",
-    "cpu_percent": 1.9
-  },
-  {
-    "timestamp": "July 27, 2025 04:15:01 UTC",
-    "cpu_percent": 1.4
-  },
-  {
-    "timestamp": "July 27, 2025 04:20:01 UTC",
-    "cpu_percent": 2.2
-  },
-  {
     "timestamp": "July 27, 2025 04:22:34 UTC",
     "cpu_percent": 0.4
   },
@@ -38,5 +22,29 @@
   {
     "timestamp": "July 27, 2025 04:45:01 UTC",
     "cpu_percent": 4.0
+  },
+  {
+    "timestamp": "July 27, 2025 04:50:01 UTC",
+    "cpu_percent": 0.4
+  },
+  {
+    "timestamp": "July 27, 2025 04:55:01 UTC",
+    "cpu_percent": 0.5
+  },
+  {
+    "timestamp": "July 27, 2025 05:00:01 UTC",
+    "cpu_percent": 1.0
+  },
+  {
+    "timestamp": "July 27, 2025 05:05:01 UTC",
+    "cpu_percent": 0.5
+  },
+  {
+    "timestamp": "July 27, 2025 05:10:01 UTC",
+    "cpu_percent": 0.4
+  },
+  {
+    "timestamp": "July 27, 2025 05:15:01 UTC",
+    "cpu_percent": 0.6
   }
 ]
