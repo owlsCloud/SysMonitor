@@ -65,4 +65,4 @@ head -n 5 history.sample.json
 
 here’s how the dashboard looks:
 
-![system monitor dashboard screenshot](docs/Dashboard screenshot.png)
+![system monitor dashboard screenshot](docs/dashboardScreenshot.png)
