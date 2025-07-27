@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# virtual
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# vsCode
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# runtime-generated files
+public/stats.json
+
+# sample stats file only for local testing
+!public/stats.sample.json
+
+# logs and temp
+*.log
+*.tmp
+*.bak
+
+
+.env
+*.key
+*.pem
