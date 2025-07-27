@@ -28,7 +28,9 @@ public/stats.json
 !public/stats.sample.json
 
 # logs and temp
+
 *.log
+!*.sample.log
 *.tmp
 *.bak
 

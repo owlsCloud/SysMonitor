@@ -22,5 +22,21 @@
   {
     "timestamp": "July 27, 2025 04:25:01 UTC",
     "cpu_percent": 2.1
+  },
+  {
+    "timestamp": "July 27, 2025 04:30:01 UTC",
+    "cpu_percent": 1.3
+  },
+  {
+    "timestamp": "July 27, 2025 04:35:01 UTC",
+    "cpu_percent": 0.6
+  },
+  {
+    "timestamp": "July 27, 2025 04:40:01 UTC",
+    "cpu_percent": 0.4
+  },
+  {
+    "timestamp": "July 27, 2025 04:45:01 UTC",
+    "cpu_percent": 4.0
   }
 ]

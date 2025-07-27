@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.5rem;
+}
+
+#stats p {
+  margin: 0.3rem 0;
+}
+
+button#refresh-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+canvas {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
