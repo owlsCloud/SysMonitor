@@ -60,3 +60,9 @@ head -n 5 heartbeat.sample.log
 head -n 5 stats.sample.json
 head -n 5 history.sample.json
 ```
+
+## Demo
+
+here’s how the dashboard looks:
+
+![system monitor dashboard screenshot](docs/Dasboard_screenshot.png)
