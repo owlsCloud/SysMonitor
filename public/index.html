@@ -2,12 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>System Monitor Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>system monitor dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body>
-    <h1>System Stats</h1>
+    <h1>system stats</h1>
     <div id="stats"></div>
+
+    <h2>cpu usage history (last 12 readings)</h2>
+    <canvas id="historyChart" width="600" height="300"></canvas>
     <script src="dashboard.js"></script>
   </body>
 </html>
