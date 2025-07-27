@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-07-26T20:21:34Z",
+  "cpu_percent": 12.3,
+  "memory": {
+    "used": 4.5,
+    "total": 8.0
+  },
+  "disk": {
+    "used": 71.2,
+    "mount": "/"
+  },
+  "uptime": 123456.7
+}
