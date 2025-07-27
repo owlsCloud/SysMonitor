@@ -11,7 +11,9 @@ fetch("stats.json")
       <p><strong>Disk Usage:</strong> ${data.disk.used}% on ${
       data.disk.mount
     }</p>
-      <p><strong>Uptime:</strong> ${Math.floor(data.uptime / 3600)} hours</p>
+      <p><strong>Uptime:</strong> ${Math.floor(
+        data.uptime_seconds / 3600
+      )} hours</p>
       <p style="margin-bottom:0"><strong>Host Info:</strong>
       <ul style="list-style:none; margin:0">
       <li><strong>Hostname:</strong> ${data.host.hostname}</li>

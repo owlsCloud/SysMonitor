@@ -1,1 +1,8 @@
-*/5 * * * * /usr/bin/python3 /full/path/to/monitor.py
+# don’t mail me; log everything instead
+MAILTO=""
+
+# every minute for testing
+* * * * * cd /home/javowl/Documents/Code/Projects/SysMonitor && /usr/bin/python3 /home/javowl/Documents/Code/Projects/SysMonitor/monitor.py >> /home/javowl/Documents/Code/Projects/SysMonitor/cron.log 2>&1
+
+# heartbeat to prove cron is alive
+* * * * * echo "$(date): cron OK" >> /home/javowl/Documents/Code/Projects/SysMonitor/heartbeat.log 2>&1

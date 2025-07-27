@@ -3,6 +3,8 @@ import platform
 import json
 import os
 from datetime import datetime, timezone
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Format bytes to MB or GB as needed
 def bytes_to_gb(b):
     return round(b / (1024 ** 3), 2)
@@ -50,10 +52,13 @@ stats = {
     },
 
     # Uptime
-    "uptime_seconds": round((datetime.now(timezone.utc)
-                             - datetime.fromtimestamp(psutil.boot_time(), timezone.utc)
-                            ).total_seconds()),
-    "boot_time": datetime.fromtimestamp(psutil.boot_time(), timezone.utc).isoformat(),
+    "uptime_seconds": round((
+    datetime.now(timezone.utc)
+    - datetime.fromtimestamp(psutil.boot_time(), timezone.utc)
+).total_seconds()),
+
+"boot_time": datetime.fromtimestamp(psutil.boot_time(), timezone.utc)
+                     .strftime("%B %d, %Y %H:%M:%S %Z"),
 
     # Host Info
     "host": {
@@ -68,6 +73,6 @@ stats = {
 }
 
 # Save to JSON
-output_path = os.path.join("public", "stats.json")
+output_path = os.path.join(BASE_DIR, "public", "stats.json")
 with open(output_path, "w") as f:
     json.dump(stats, f, indent=2)
